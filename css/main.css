@@ -1,0 +1,121 @@
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  background-color: white;
+  font-family: 'Spartan', sans-serif;
+  font-size: 15px;
+}
+
+main {
+  padding: 80px 24px 100px 24px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  min-height: 100vh;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+main .judul {
+  text-align: center;
+  padding-bottom: 2.875rem;
+}
+
+main .judul h1 {
+  color: #502050;
+  padding-bottom: 1.5rem;
+  font-weight: 700;
+  line-height: 1;
+}
+
+main .judul p {
+  color: #937b92;
+  font-size: 0.90625rem;
+  font-weight: 500;
+  line-height: 1.5;
+}
+
+main .isi .bag-bintang {
+  margin-bottom: 3.125rem;
+}
+
+main .isi .bag-bintang .card-bintang {
+  border-radius: 10px;
+  padding: 15px 0 20px 0;
+  background-color: #f7f2f7;
+  text-align: center;
+  margin-bottom: 1.125rem;
+}
+
+main .isi .bag-bintang .card-bintang .bintang {
+  margin: auto;
+  padding: 0 6.5625rem;
+}
+
+main .isi .bag-bintang .card-bintang p {
+  padding-top: 0.9375rem;
+  font-weight: 700;
+  color: #502050;
+  font-size: 0.84375rem;
+}
+
+main .isi .testi .card-testi {
+  padding: 40px 34px 24px 30px;
+  border-radius: 8px;
+  background-color: #502050;
+  margin-bottom: 1rem;
+}
+
+main .isi .testi .card-testi .foto-nama {
+  padding-bottom: 1.75rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+main .isi .testi .card-testi .foto-nama img {
+  border-radius: 50%;
+  width: 2.625rem;
+  height: 2.625rem;
+}
+
+main .isi .testi .card-testi .foto-nama .nama {
+  padding-left: 1.25rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+main .isi .testi .card-testi .foto-nama .nama p {
+  font-size: 12px;
+  font-weight: 700;
+}
+
+main .isi .testi .card-testi .foto-nama .nama .buyer {
+  color: #ee68a4;
+  font-weight: 400;
+}
+
+main .isi .testi .card-testi p {
+  line-height: 1.8;
+  font-size: 12.6px;
+  color: #f7f2f7;
+}
+/*# sourceMappingURL=main.css.map */
