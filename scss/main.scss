@@ -8,23 +8,23 @@ main {
     min-height: 100vh;
     justify-content: center;
     align-items: center;
-    .judul {
-        text-align: center;
-        padding-bottom: 2.875rem;
-        h1 {
-            color: $Very-Dark-Magenta;
-            padding-bottom: 1.5rem;
-            font-weight: 700;
-            line-height: 1;
+    .atas {
+        .judul {
+            text-align: center;
+            padding-bottom: 2.875rem;
+            h1 {
+                color: $Very-Dark-Magenta;
+                padding-bottom: 1.5rem;
+                font-weight: 700;
+                line-height: 1;
+            }
+            p {
+                color: $Dark-Grayish-Magenta;
+                font-size: 0.90625rem;
+                font-weight: 500;
+                line-height: 1.5;
+            }
         }
-        p {
-            color: $Dark-Grayish-Magenta;
-            font-size: 0.90625rem;
-            font-weight: 500;
-            line-height: 1.5;
-        }
-    }
-    .isi {
         .bag-bintang {
             margin-bottom: 3.125rem;
             .card-bintang {
@@ -46,44 +46,45 @@ main {
             }
         
         }
-        .testi {
-            .card-testi {
-                padding: 40px 34px 24px 30px;
-                border-radius: 8px;
-                background-color: $Very-Dark-Magenta;
-                margin-bottom: 1rem;
-                .foto-nama {
-                    padding-bottom: 1.75rem;
-                    display: flex;
-                    img {
-                        border-radius: 50%;
-                        width: 2.625rem;
-                        height: 2.625rem;
-                        
-                    }
-                    .nama {
-                        padding-left: 1.25rem;
-                        display: flex;
-                        flex-direction: column;
-                        p {
-                            font-size: 12px;
-                            font-weight: 700;
-                        }
-                        .buyer {
-                            color: $Soft-Pink;
-                            font-weight: 400;
-                        }
-                    }
-                   
-                }
-                p {
-                    line-height: 1.8;
-                    font-size: 12.6px;
-                    color: $Light-Grayish-Magenta;
-                }
-        
-            }
-        }
-    
     }
+    
+    .testi {
+        .card-testi {
+            padding: 40px 34px 24px 30px;
+            border-radius: 8px;
+            background-color: $Very-Dark-Magenta;
+            margin-bottom: 1rem;
+            .foto-nama {
+                padding-bottom: 1.75rem;
+                display: flex;
+                img {
+                    border-radius: 50%;
+                    width: 2.625rem;
+                    height: 2.625rem;
+                    
+                }
+                .nama {
+                    padding-left: 1.25rem;
+                    display: flex;
+                    flex-direction: column;
+                    p {
+                        font-size: 12px;
+                        font-weight: 700;
+                    }
+                    .buyer {
+                        color: $Soft-Pink;
+                        font-weight: 400;
+                    }
+                }
+               
+            }
+            p {
+                line-height: 1.8;
+                font-size: 12.6px;
+                color: $Light-Grayish-Magenta;
+            }
+    
+        }
+    }
+    
 }

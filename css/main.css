@@ -29,30 +29,30 @@ main {
           align-items: center;
 }
 
-main .judul {
+main .atas .judul {
   text-align: center;
   padding-bottom: 2.875rem;
 }
 
-main .judul h1 {
+main .atas .judul h1 {
   color: #502050;
   padding-bottom: 1.5rem;
   font-weight: 700;
   line-height: 1;
 }
 
-main .judul p {
+main .atas .judul p {
   color: #937b92;
   font-size: 0.90625rem;
   font-weight: 500;
   line-height: 1.5;
 }
 
-main .isi .bag-bintang {
+main .atas .bag-bintang {
   margin-bottom: 3.125rem;
 }
 
-main .isi .bag-bintang .card-bintang {
+main .atas .bag-bintang .card-bintang {
   border-radius: 10px;
   padding: 15px 0 20px 0;
   background-color: #f7f2f7;
@@ -60,39 +60,39 @@ main .isi .bag-bintang .card-bintang {
   margin-bottom: 1.125rem;
 }
 
-main .isi .bag-bintang .card-bintang .bintang {
+main .atas .bag-bintang .card-bintang .bintang {
   margin: auto;
   padding: 0 6.5625rem;
 }
 
-main .isi .bag-bintang .card-bintang p {
+main .atas .bag-bintang .card-bintang p {
   padding-top: 0.9375rem;
   font-weight: 700;
   color: #502050;
   font-size: 0.84375rem;
 }
 
-main .isi .testi .card-testi {
+main .testi .card-testi {
   padding: 40px 34px 24px 30px;
   border-radius: 8px;
   background-color: #502050;
   margin-bottom: 1rem;
 }
 
-main .isi .testi .card-testi .foto-nama {
+main .testi .card-testi .foto-nama {
   padding-bottom: 1.75rem;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
 }
 
-main .isi .testi .card-testi .foto-nama img {
+main .testi .card-testi .foto-nama img {
   border-radius: 50%;
   width: 2.625rem;
   height: 2.625rem;
 }
 
-main .isi .testi .card-testi .foto-nama .nama {
+main .testi .card-testi .foto-nama .nama {
   padding-left: 1.25rem;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -103,17 +103,17 @@ main .isi .testi .card-testi .foto-nama .nama {
           flex-direction: column;
 }
 
-main .isi .testi .card-testi .foto-nama .nama p {
+main .testi .card-testi .foto-nama .nama p {
   font-size: 12px;
   font-weight: 700;
 }
 
-main .isi .testi .card-testi .foto-nama .nama .buyer {
+main .testi .card-testi .foto-nama .nama .buyer {
   color: #ee68a4;
   font-weight: 400;
 }
 
-main .isi .testi .card-testi p {
+main .testi .card-testi p {
   line-height: 1.8;
   font-size: 12.6px;
   color: #f7f2f7;
