@@ -2,12 +2,25 @@
 @import "general";
 
 main {
+    position: relative;
     padding:  80px 24px 100px 24px;
     display: flex;
     flex-direction: column;
     min-height: 100vh;
     justify-content: center;
     align-items: center;
+    .background-dekstop {
+        display: none;
+    }
+    .background-mobile {
+        display: block;
+        position: relative;
+        .bg-mobile-atas {
+            position: absolute;
+            top: -90px;
+            left: -175px;
+        }
+    }
     .atas {
         .judul {
             text-align: center;
@@ -83,8 +96,147 @@ main {
                 font-size: 12.6px;
                 color: $Light-Grayish-Magenta;
             }
-    
+        }
+    }   
+}
+
+@media screen and (min-width: 1000px) {
+
+    main {
+    position: relative;
+    padding:  0px 0px 0px 0px;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    // max-width: 730px;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    .background-mobile {
+        display: none;
+    }
+    .background-dekstop {
+        display: block;
+        position: relative;
+        .bg-dekstop-atas {
+            position: absolute;
+            top: 0;
+            right: 150px;
+        }
+        .bg-dekstop-bawah {
+            position: absolute;
+            top: 200px;
+            left: -200px;
+        }
+    }
+    .atas {
+        margin-bottom: 75px;
+        margin-top: auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        max-width: 1110px;
+        .judul {
+            text-align: left;
+            padding-bottom: 0;
+            padding-right: 120px;
+            h1 {
+                color: $Very-Dark-Magenta;
+                padding-bottom: 0.75rem;
+                font-weight: 700;
+                line-height: 1;
+                font-size: 40px;
+            }
+            p {
+                color: $Dark-Grayish-Magenta;
+                font-size: 0.875rem;
+                font-weight: 500;
+                line-height: 1.5;
+            }
+        }
+        .bag-bintang {
+            margin-bottom: 0;
+            .card-b2 {
+                margin-left: auto;
+                margin-right: auto;
+            }
+            .card-b3 {
+                margin-left: auto;
+            }
+            .card-bintang {
+                max-width: 445px;
+                border-radius: 10px;
+                padding: 15px 0px 15px 0;
+                background-color: $Light-Grayish-Magenta;
+                text-align: center;
+                margin-bottom: 1.125rem;
+                display: grid;
+                grid-template-columns: 1.2fr 2fr;
+                .bintang {
+                    margin: 0;
+                    padding: 0;
+                }
+                p {
+                    text-align: left;
+                    padding-top: 0;
+                    font-weight: 700;
+                    color: $Very-Dark-Magenta;
+                    font-size: 0.84375rem;
+                }
+            }
+        
         }
     }
     
+    .testi {
+        display: flex;
+        margin-bottom: auto;
+        .card2 {
+            margin-top: 1rem;
+            margin-right: 1.875rem;
+            margin-left: 1.875rem;
+        }
+        .card3 {
+            margin-top: 2rem;
+        }
+        .card-testi {
+            height: 100%;
+            max-width: 350px;
+            padding: 40px 36px 32px 30px;
+            border-radius: 8px;
+            background-color: $Very-Dark-Magenta;
+            margin-bottom: 0;
+            
+            
+            .foto-nama {
+                padding-bottom: 1.75rem;
+                display: flex;
+                img {
+                    border-radius: 50%;
+                    width: 2.625rem;
+                    height: 2.625rem;
+                    
+                }
+                .nama {
+                    padding-left: 1.25rem;
+                    display: flex;
+                    flex-direction: column;
+                    p {
+                        font-size: 12px;
+                        font-weight: 700;
+                    }
+                    .buyer {
+                        color: $Soft-Pink;
+                        font-weight: 400;
+                    }
+                }
+               
+            }
+            p {
+                line-height: 1.8;
+                font-size: 12.6px;
+                color: $Light-Grayish-Magenta;
+            }
+        }
+    }   
+}
 }

@@ -12,6 +12,7 @@ body {
 }
 
 main {
+  position: relative;
   padding: 80px 24px 100px 24px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -27,6 +28,21 @@ main {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+}
+
+main .background-dekstop {
+  display: none;
+}
+
+main .background-mobile {
+  display: block;
+  position: relative;
+}
+
+main .background-mobile .bg-mobile-atas {
+  position: absolute;
+  top: -90px;
+  left: -175px;
 }
 
 main .atas .judul {
@@ -117,5 +133,160 @@ main .testi .card-testi p {
   line-height: 1.8;
   font-size: 12.6px;
   color: #f7f2f7;
+}
+
+@media screen and (min-width: 1000px) {
+  main {
+    position: relative;
+    padding: 0px 0px 0px 0px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    min-height: 100vh;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    overflow: hidden;
+  }
+  main .background-mobile {
+    display: none;
+  }
+  main .background-dekstop {
+    display: block;
+    position: relative;
+  }
+  main .background-dekstop .bg-dekstop-atas {
+    position: absolute;
+    top: 0;
+    right: 150px;
+  }
+  main .background-dekstop .bg-dekstop-bawah {
+    position: absolute;
+    top: 200px;
+    left: -200px;
+  }
+  main .atas {
+    margin-bottom: 75px;
+    margin-top: auto;
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 1fr 1fr;
+        grid-template-columns: 1fr 1fr;
+    max-width: 1110px;
+  }
+  main .atas .judul {
+    text-align: left;
+    padding-bottom: 0;
+    padding-right: 120px;
+  }
+  main .atas .judul h1 {
+    color: #502050;
+    padding-bottom: 0.75rem;
+    font-weight: 700;
+    line-height: 1;
+    font-size: 40px;
+  }
+  main .atas .judul p {
+    color: #937b92;
+    font-size: 0.875rem;
+    font-weight: 500;
+    line-height: 1.5;
+  }
+  main .atas .bag-bintang {
+    margin-bottom: 0;
+  }
+  main .atas .bag-bintang .card-b2 {
+    margin-left: auto;
+    margin-right: auto;
+  }
+  main .atas .bag-bintang .card-b3 {
+    margin-left: auto;
+  }
+  main .atas .bag-bintang .card-bintang {
+    max-width: 445px;
+    border-radius: 10px;
+    padding: 15px 0px 15px 0;
+    background-color: #f7f2f7;
+    text-align: center;
+    margin-bottom: 1.125rem;
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 1.2fr 2fr;
+        grid-template-columns: 1.2fr 2fr;
+  }
+  main .atas .bag-bintang .card-bintang .bintang {
+    margin: 0;
+    padding: 0;
+  }
+  main .atas .bag-bintang .card-bintang p {
+    text-align: left;
+    padding-top: 0;
+    font-weight: 700;
+    color: #502050;
+    font-size: 0.84375rem;
+  }
+  main .testi {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin-bottom: auto;
+  }
+  main .testi .card2 {
+    margin-top: 1rem;
+    margin-right: 1.875rem;
+    margin-left: 1.875rem;
+  }
+  main .testi .card3 {
+    margin-top: 2rem;
+  }
+  main .testi .card-testi {
+    height: 100%;
+    max-width: 350px;
+    padding: 40px 36px 32px 30px;
+    border-radius: 8px;
+    background-color: #502050;
+    margin-bottom: 0;
+  }
+  main .testi .card-testi .foto-nama {
+    padding-bottom: 1.75rem;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  main .testi .card-testi .foto-nama img {
+    border-radius: 50%;
+    width: 2.625rem;
+    height: 2.625rem;
+  }
+  main .testi .card-testi .foto-nama .nama {
+    padding-left: 1.25rem;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  main .testi .card-testi .foto-nama .nama p {
+    font-size: 12px;
+    font-weight: 700;
+  }
+  main .testi .card-testi .foto-nama .nama .buyer {
+    color: #ee68a4;
+    font-weight: 400;
+  }
+  main .testi .card-testi p {
+    line-height: 1.8;
+    font-size: 12.6px;
+    color: #f7f2f7;
+  }
 }
 /*# sourceMappingURL=main.css.map */
